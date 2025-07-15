@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamitaaa la quiero mucho</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #bd1e90;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    p {
+      font-size: 18px;
+      color: #34495e;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #2980b9;
+      color: rgb(225, 10, 245);
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1f6391;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Te Amo</h1>
+  <p id="mensaje">Esta es mi primera página webbbb </p>
+  <button onclick="cambiarMensaje()">Haz clic aquí</button>
+
+  <script>
+    function cambiarMensaje() {
+      document.getElementById("mensaje").innerText = "usted es la mejor mama del mundo";
+    }
+  </script>
+
+</body>
+</html>
